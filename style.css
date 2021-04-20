@@ -42,10 +42,10 @@ body {
     height: 485px;*/
     /* width: 9.8cm;
     height: 10.5cm */;
-    width: 351px;
+    width: 350px;
     height: 374px;
     border-radius: 3%;
-    box-shadow: 0 40px 5em rgba(8, 8, 8, 0.3);
+    box-shadow: 0 2.2em 5em rgba(8, 8, 8, 0.3);
     overflow: hidden;
     background-color: white;
 }
@@ -136,6 +136,12 @@ body {
 
 #photos {
     grid-column: 3;
+}
+
+@media (max-width: 375px) {
+    .card {
+        width: 326px;
+    }
 }
 
 /*--------------------------------*/
